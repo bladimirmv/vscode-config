@@ -1,0 +1,47 @@
+{
+	"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+	"terminal.integrated.fontFamily": "Anonymice Nerd Font",
+	// "terminal.integrated.letterSpacing": 0.5,
+
+	"workbench.colorTheme": "Monokai",
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+
+	"bracket-pair-colorizer-2.colors": [
+		"#fafafa"
+	],
+
+	"workbench.iconTheme": "vscode-icons",
+
+	"workbench.settings.editor": "json",
+	"workbench.startupEditor": "newUntitledFile",
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"editor.tabSize": 2,
+	"editor.renderWhitespace": "all",
+	"editor.defaultFormatter": "HookyQR.beautify",
+	"editor.fontLigatures": true,
+	"editor.fontFamily": "Consolas, 'Courier New', monospace",
+	"gitlens.views.repositories.files.layout": "list",
+	"editor.fontSize": 14,
+	"editor.lineHeight": 18,
+	"window.zoomLevel": 1,
+	"editor.renderLineHighlight": "all",
+	"terminal.integrated.fontSize": 16,
+	"editor.insertSpaces": false,
+	"workbench.activityBar.visible": true,
+	"workbench.statusBar.visible": true,
+	"hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWw7d2ViaWNvbnNcIixcImN1c3RvbUxpYnJhcmllc1wiOltcIkwuc2NyYXRjaHBhZFwiXSxcInBsdWdpbnNcIjpbXSxcInJlY2VudENvbG9yc1wiOltcIjAwMDAwMFwiXSxcImZvcm1hdFdpZHRoXCI6XCIyNDBcIixcImNyZWF0ZVRhcmdldFwiOmZhbHNlLFwicGFnZUZvcm1hdFwiOntcInhcIjowLFwieVwiOjAsXCJ3aWR0aFwiOjg1MCxcImhlaWdodFwiOjExMDB9LFwic2VhcmNoXCI6dHJ1ZSxcInNob3dTdGFydFNjcmVlblwiOnRydWUsXCJncmlkQ29sb3JcIjpcIiNkMGQwZDBcIixcImRhcmtHcmlkQ29sb3JcIjpcIiM2ZTZlNmVcIixcImF1dG9zYXZlXCI6dHJ1ZSxcInJlc2l6ZUltYWdlc1wiOm51bGwsXCJvcGVuQ291bnRlclwiOjAsXCJ2ZXJzaW9uXCI6MTgsXCJ1bml0XCI6MSxcImlzUnVsZXJPblwiOmZhbHNlLFwidWlcIjpcIlwifSJ9",
+	"terminal.integrated.shell.linux": "/bin/zsh",
+	"editor.renderControlCharacters": true,
+	"workbench.sideBar.location": "left",
+	"workbench.editor.enablePreviewFromQuickOpen": false
+
+}
