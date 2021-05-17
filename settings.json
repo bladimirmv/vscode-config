@@ -1,9 +1,33 @@
 {
-	"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
-	"terminal.integrated.fontFamily": "Anonymice Nerd Font",
-	// "terminal.integrated.letterSpacing": 0.5,
+	"window.zoomLevel": 1,
 
 	"workbench.colorTheme": "Monokai",
+	"workbench.settings.editor": "json",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.startupEditor": "newUntitledFile",
+	"workbench.activityBar.visible": true,
+	"workbench.statusBar.visible": true,
+	"workbench.editor.enablePreviewFromQuickOpen": false,
+	"workbench.sideBar.location": "left",
+
+	"editor.fontFamily": "Mononoki Nerd Font",
+	"editor.fontSize": 14,
+	"editor.tabSize": 2,
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"editor.lineHeight": 18,
+	"editor.renderLineHighlight": "all",
+	"editor.renderWhitespace": "all",
+	"editor.defaultFormatter": "HookyQR.beautify",
+	"editor.fontLigatures": true,
+	"editor.insertSpaces": false,
+
+	"terminal.integrated.fontFamily": "Mononoki Nerd Font",
+	"terminal.integrated.fontSize": 14,
+	"editor.renderControlCharacters": true,
+
+	"typescript.updateImportsOnFileMove.enabled": "always",
+
 	"[javascript]": {
 		"editor.defaultFormatter": "vscode.typescript-language-features"
 	},
@@ -14,34 +38,65 @@
 		"editor.defaultFormatter": "vscode.json-language-features"
 	},
 
-	"bracket-pair-colorizer-2.colors": [
-		"#fafafa"
+	"better-comments.tags": [{
+			"tag": "!",
+			"color": "#FF2D00",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "?",
+			"color": "#3498DB",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "//",
+			"color": "#19B1A0",
+			"strikethrough": true,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "todo",
+			"color": "#FF8C00",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		}, {
+			"tag": "**",
+			"color": "#98C379",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": true,
+			"italic": true
+		}, {
+			"tag": "*",
+			"color": "#98C379",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": true
+		}, {
+			"tag": "=",
+			"color": "#98C379",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": true,
+			"italic": true
+		}
 	],
-
-	"workbench.iconTheme": "vscode-icons",
-
-	"workbench.settings.editor": "json",
-	"workbench.startupEditor": "newUntitledFile",
-	"editor.formatOnSave": true,
-	"editor.formatOnPaste": true,
-	"editor.tabSize": 2,
-	"editor.renderWhitespace": "all",
-	"editor.defaultFormatter": "HookyQR.beautify",
-	"editor.fontLigatures": true,
-	"editor.fontFamily": "Consolas, 'Courier New', monospace",
-	"gitlens.views.repositories.files.layout": "list",
-	"editor.fontSize": 14,
-	"editor.lineHeight": 18,
-	"window.zoomLevel": 1,
-	"editor.renderLineHighlight": "all",
-	"terminal.integrated.fontSize": 16,
-	"editor.insertSpaces": false,
-	"workbench.activityBar.visible": true,
-	"workbench.statusBar.visible": true,
-	"hediet.vscode-drawio.local-storage": "eyIuZHJhd2lvLWNvbmZpZyI6IntcImxhbmd1YWdlXCI6XCJcIixcImN1c3RvbUZvbnRzXCI6W10sXCJsaWJyYXJpZXNcIjpcImdlbmVyYWw7d2ViaWNvbnNcIixcImN1c3RvbUxpYnJhcmllc1wiOltcIkwuc2NyYXRjaHBhZFwiXSxcInBsdWdpbnNcIjpbXSxcInJlY2VudENvbG9yc1wiOltcIjAwMDAwMFwiXSxcImZvcm1hdFdpZHRoXCI6XCIyNDBcIixcImNyZWF0ZVRhcmdldFwiOmZhbHNlLFwicGFnZUZvcm1hdFwiOntcInhcIjowLFwieVwiOjAsXCJ3aWR0aFwiOjg1MCxcImhlaWdodFwiOjExMDB9LFwic2VhcmNoXCI6dHJ1ZSxcInNob3dTdGFydFNjcmVlblwiOnRydWUsXCJncmlkQ29sb3JcIjpcIiNkMGQwZDBcIixcImRhcmtHcmlkQ29sb3JcIjpcIiM2ZTZlNmVcIixcImF1dG9zYXZlXCI6dHJ1ZSxcInJlc2l6ZUltYWdlc1wiOm51bGwsXCJvcGVuQ291bnRlclwiOjAsXCJ2ZXJzaW9uXCI6MTgsXCJ1bml0XCI6MSxcImlzUnVsZXJPblwiOmZhbHNlLFwidWlcIjpcIlwifSJ9",
-	"terminal.integrated.shell.linux": "/bin/zsh",
-	"editor.renderControlCharacters": true,
-	"workbench.sideBar.location": "left",
-	"workbench.editor.enablePreviewFromQuickOpen": false
-
 }
